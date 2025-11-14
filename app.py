@@ -96,7 +96,6 @@ def upload_files():
         else:
             main_score = float(result)
         
-        # Prepare response
         response = {
             'success': True,
             'codebleu_score': main_score,
